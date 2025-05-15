@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cvpods
+Version: 0.1+cu117torch110
+Summary: cvpods is BaseDetection's research platform for object detection and segmentation based on cvpods.
+Home-page: UNKNOWN
+Author: BaseDetection
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: all
+License-File: LICENSE
+
+UNKNOWN
+
