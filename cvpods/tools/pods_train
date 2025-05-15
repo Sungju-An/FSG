@@ -1,0 +1,2 @@
+#!/bin/bash
+python3 /home/vip2/sungju/D3T/cvpods/tools/train_net.py $@
