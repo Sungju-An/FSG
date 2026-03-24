@@ -1,2 +1,9 @@
 # MDT
 RGB2IR_DomainAdaptation
+
+# Abstract
+Unsupervised domain adaptation (UDA) from RGB to thermal imagery is critical for perception in adverse illumination, yet remains challenging due to the intrinsic modality gap between three-channel color signals and single-channel thermal intensity. Most prior RGB-to-thermal UDA detectors rely on global style/feature alignment, which may over-adapt background appearance and dilute object-specific cues, particularly harming small objects with low signal-to-noise ratios. We propose Foreground-Selective Grayscale (FSG), a simple object-centric adaptation module that learns an objectness heatmap and converts only foreground regions into grayscale while preserving the original RGB background. By removing color variations within objects, %FSG encourages thermal-like representations that emphasize shape, edges, and contrast, improving feature robustness and pseudo-label reliability for small objects. 
+FSG fosters modality-invariant representations by aligning the source RGB signals with the intensity-driven appearance patterns of thermal imagery. By selectively suppressing stochastic chromatic variations within object regions, the detector is incentivized to prioritize structural cues—such as geometry and contrast—that remain consistent across the spectral gap, thereby stabilizing pseudo-labeling even for small instances with low signal-to-noise ratios.
+Extensive experiments on RGB-to-thermal adaptation benchmarks demonstrate that the proposed approach consistently improves detection performance over state-of-the-art baselines, validating the effectiveness of object-centric modality gap reduction with context preservation.
+
+<img width="1116" height="446" alt="Fig1" src="https://github.com/user-attachments/assets/33bb2788-c337-4d59-b59c-ac40dfe5b8e1" />
