@@ -1,4 +1,4 @@
-# MDT
+# FSG
 RGB2IR_DomainAdaptation
 
 # Abstract
